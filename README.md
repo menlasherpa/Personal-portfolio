@@ -1,7 +1,7 @@
 # Lakpa's Personal Portfolio
 
 ## Day 1: Oct 20, 2023
-- Bought a .click domain from AWS via Route53, set up hosted zone and cloudfront
+- Bought a .click domain from AWS via Route53
 - Searched for template for my portfolio 
 
 ## Day 2: Oct 21, 2023
