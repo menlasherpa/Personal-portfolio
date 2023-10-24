@@ -8,6 +8,7 @@
 - Customized the front end as per my need
 - Wrote blog for my portfolio
 - Set up links to blog
+- Created S3 bucket
 - Set up SNS for receving an email when messages are received
 
 ## Day 3: Oct 22, 2023
