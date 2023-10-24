@@ -1,7 +1,7 @@
 # Lakpa's Personal Portfolio
 
 ## Day 1: Oct 20, 2023
-🎯 Bought a .click domain from AWS
+🎯 <p> Bought a .click domain from AWS </p>
 
 ## Day 2: Oct 21, 2023
 
