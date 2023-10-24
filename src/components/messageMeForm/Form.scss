@@ -1,0 +1,41 @@
+@import "../../_globalColor";
+
+div {
+  
+    h2 {
+        text-align: center;
+    }
+  
+    form {
+      font: "Montserrat" "sans-serif";
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    
+      border-radius: 5px;
+
+      textarea {
+        width:auto;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+  
+      button {
+        background-color: #55198b;
+        color: #ccc;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #8c43ce;
+        }
+      }
+    }
+  }
+  
