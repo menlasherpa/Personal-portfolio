@@ -44,23 +44,23 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I Do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "About Me",
+  subTitle: "FULL STACK JAVA DEVELOPER",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for web applications"
+      "🎯 Developed highly interactive Front end / User Interfaces for web applications"
     ),
     emoji(
-      "⚡ Design web applications using Microservices, Spring MVC, Restful and MySQL database"
+      "🎯 Designed web applications using Microservices, Spring MVC, Restful and MySQL database"
     ),
     emoji(
-      "⚡ Trained in project management and experienced in implementing development projects via PMI processes"
+      "🎯 Trained in project management and experienced in implementing development projects via PMI processes"
     ),
     emoji(
-      "⚡ Strong knowledge of CI/CD, Object Oriented Principles, several Design Patterns and Web services"
+      "🎯 Strong knowledge of CI/CD, Object Oriented Principles, several Design Patterns and Web services"
     ),
     emoji(
-      "⚡ Proficient in Cloud Computing particularly in AWS (EC2, Lambda, S3, RDS, CloudWatch, DynamoDB, CloudFront, RDS, API Gateway, Elastic Load Balancer)"
+      "🎯 Proficient in Cloud Computing particularly in AWS (EC2, Lambda, S3, RDS, CloudWatch, DynamoDB, CloudFront, RDS, API Gateway, Elastic Load Balancer)"
     )
   ],
 
