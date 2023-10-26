@@ -43,7 +43,7 @@ function Form() {
       <form onSubmit={handleSubmit}>
         <textarea
           type="text"
-          name="GuestName"
+          name="name"
           placeholder="Name"
           value={formData.GuestName}
           onChange={handleChange}
@@ -57,20 +57,20 @@ function Form() {
         />
         <textarea
           type="tel"
-          name="Phone"
+          name="phoneNum"
           placeholder="Phone (Optional)"
           value={formData.Phone}
           onChange={handleChange}
         />
         <textarea
           type="text"
-          name="MessageTitle"
+          name="subject"
           placeholder="Message Title"
           value={formData.MessageTitle}
           onChange={handleChange}
         />
         <textarea
-          name="Message"
+          name="message"
           placeholder="Message"
           rows={8}
           value={formData.Message}
