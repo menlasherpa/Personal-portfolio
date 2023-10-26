@@ -23,7 +23,7 @@ function Form() {
     data.preventDefault();
     // Make an API call here to submit the form data to your serverless back end.
     try {
-      const response = await axios.post("YourApiEndpoint", data);
+      const response = await axios.post("https://mobj5qxqxk.execute-api.us-east-1.amazonaws.com/v1/contact", data);
       if (response.status === 200) {
         alert("Message submitted successfully");
       } else {
