@@ -1,14 +1,13 @@
 import React, {useState} from "react";
 import "./Form.scss";
-import axios from "axios";
 
 function Form() {
   const [formData, setFormData] = useState({
-    MessageTitle: "",
-    Message: "",
-    Email: "",
-    GuestName: "",
-    Phone: ""
+    subject: "",
+    message: "",
+    email: "",
+    name: "",
+    phoneNum: ""
   });
 
   const handleChange = e => {
@@ -19,19 +18,26 @@ function Form() {
     });
   };
 
-  const handleSubmit = async data => {
-    data.preventDefault();
-    // Make an API call here to submit the form data to your serverless back end.
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     try {
-      const response = await axios.post("https://mobj5qxqxk.execute-api.us-east-1.amazonaws.com/v1/contact", data);
-      if (response.status === 200) {
-        alert("Message submitted successfully");
+      const response = await fetch('https://mobj5qxqxk.execute-api.us-east-1.amazonaws.com/v1/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        // Handle success
+        console.log('Form submitted successfully.');
       } else {
-        alert("Message submission failed");
+        // Handle error
+        console.error('Form submission failed.');
       }
     } catch (error) {
-      console.error("Error:", error);
-      alert("Message submission failed");
+      console.error('An error occurred:', error);
     }
   };
 
