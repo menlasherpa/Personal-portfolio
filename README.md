@@ -18,7 +18,22 @@
 - Read slides for final
 - Did backend. Set up API Gateway for REST APIs, created DynamoDB table to store the messages. Created a Lambda as well
 
-## Day Oct 24, 2023
+## Day 5: Oct 24, 2023
 - Worked on Lambda code to receive messages from front end
 - Uploaded the build files to S3 bucket
+
+## Day 6: Oct 26, 2023
+- Made some final changes on client validation for contact form
+- Uploaded final build codes on S3 bucket
+- Worked on setting up the Route53 records.
+- Created cloudfront in front of S3
+- Issued certificate and then redirected the records to the cloudfront instead of S3
+- Finalized the Lambda code, gave permission for SES to send email when user fill the contact form.
+- Created API gateway to trigger the Lambda code, tested the URL on postman to make sure it is working and email is being received.
+- Edited my blog
+
+(https://github.com/menlasherpa/Personal-portfolio/assets/22425056/762fab94-df5c-4b7c-896e-35170e6cd154)
+
+
+
 
