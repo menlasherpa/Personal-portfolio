@@ -313,6 +313,12 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
+      url: "https://menlasherpa.medium.com/working-with-api-gateway-and-cognito-in-aws-38b3da120dbe",
+      title: "Working with API Gateway and Cognito in AWS — As a Beginner",
+      description:
+        "Amazon API Gateway is a service for creating, publishing, maintaining, monitoring, and securing RESTful APIs."
+    },
+    {
       url: "https://medium.com/@menlasherpa/my-3-favourite-apps-for-note-writing-87412556481d",
       title: "My 3 Favorite Apps For Note Writing",
       description:
