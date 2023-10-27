@@ -39,6 +39,9 @@
 - Created API gateway to trigger the Lambda code, tested the URL on postman to make sure it is working and email is being received.
 - Edited my blog
 
+## Day 7: Oct 27, 2023
+- For additional functionality, created SQS and DynamoDB table to store the new messgaes from contact me form
+- Created video recording for project demonstration
 
 
 
