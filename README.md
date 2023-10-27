@@ -1,5 +1,12 @@
 # Lakpa's Personal Portfolio
 
+### View my portfolio website: https://www.lakpa-sherpa.click/
+### Taken some inspirations from the template created by @saadpasta 
+### This project was deployed on AWS. Please refer the following diagram on how I did it:
+
+(https://github.com/menlasherpa/Personal-portfolio/assets/22425056/762fab94-df5c-4b7c-896e-35170e6cd154)
+
+
 ## Day 1: Oct 20, 2023
 - Bought a .click domain from AWS via Route53
 - Searched for template for my portfolio 
@@ -32,7 +39,6 @@
 - Created API gateway to trigger the Lambda code, tested the URL on postman to make sure it is working and email is being received.
 - Edited my blog
 
-(https://github.com/menlasherpa/Personal-portfolio/assets/22425056/762fab94-df5c-4b7c-896e-35170e6cd154)
 
 
 
